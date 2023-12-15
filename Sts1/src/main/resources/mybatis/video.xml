@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="video">
+
+<select id="list" resultType="Video">
+	SELECT NEWS_DATA.bro_no, NEWS_DATA.news_day FROM air_news.NEWS_DATA limit 10;
+</select>
+
+
+</mapper>
